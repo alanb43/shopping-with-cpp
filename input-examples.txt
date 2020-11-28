@@ -1,4 +1,7 @@
-Inputs separated by dashes. Copy and paste an input into an empty file in your directory (make sure to include an empty line at the end) and test in your IDE using ./a.out < filename :)
+Inputs separated by dashes. Copy and paste an input into an empty file in your directory 
+(make sure to include an empty line at the end) & test in your IDE using ./a.out < filename :)
+
+My code outputs 
 
 Input 1: Simple Test
 
