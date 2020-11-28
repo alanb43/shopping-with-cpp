@@ -1,0 +1,289 @@
+Inputs separated by dashes. Copy and paste an input into an empty file in your directory (make sure to include an empty line at the end) and test in your IDE using ./a.out < filename :)
+
+Input 1: Simple Test
+
+1 Stores:
+Local Grocery
+East Lansing
+Apples,10,$4.76
+
+1 items on my shopping list:
+1 Apples
+
+-------------------------------
+Input 2: Multiple Stores
+
+2 Stores:
+Local Grocery
+East Lansing
+Apples,10,$4.76
+
+Electronics R Here
+Ann Arbor
+Bargain Phone,2,$200.00
+
+1 items on my shopping list:
+1 Apples
+
+-------------------------------
+Input 3: Multi Items
+
+4 Stores:
+Local Grocery
+East Lansing
+Apples,10,$4.76
+Olive Bread,3,$2.99
+Candy,4,$0.51
+
+Electronics R Here
+Ann Arbor
+Bargain Phone,2,$200.00
+S Phone,4,$650.00
+Fruit Phone,2,$700.00
+
+Corner Store
+East Lansing
+Popcorn,4,$1.00
+
+Sparty's
+East Lansing
+Soda,4,$1.50
+Sandwich,3,$2.99
+
+1 items on my shopping list:
+1 Apples
+
+-------------------------------
+Input 4: Item duplicates
+
+4 Stores:
+Local Grocery
+East Lansing
+Apples,10,$4.76
+Sandwich,2,$1.99
+Olive Bread,3,$2.99
+Milk,7,$1.25
+Eggs,40,$0.78
+Candy,4,$0.51
+
+Electronics R Here
+Ann Arbor
+Bargain Phone,2,$200.00
+S Phone,4,$650.00
+Fruit Phone,2,$700.00
+
+Corner Store
+East Lansing
+Milk,30,$2.00
+Eggs,2,$0.50
+Candy,6,$1.00
+Soda,5,$1.56
+Bargain Phone,3,$185.00
+
+Sparty's
+East Lansing
+Candy,10,$0.85
+Soda,4,$1.50
+Sandwich,3,$2.99
+
+1 items on my shopping list:
+1 Apples
+
+-------------------------------
+Input 5: Multi Purchases
+
+4 Stores:
+Local Grocery
+East Lansing
+Apples,10,$4.76
+Sandwich,2,$1.99
+Olive Bread,3,$2.99
+Milk,7,$1.25
+Eggs,40,$0.78
+Candy,4,$0.51
+
+Electronics R Here
+Ann Arbor
+Bargain Phone,2,$200.00
+S Phone,4,$650.00
+Fruit Phone,2,$700.00
+
+Corner Store
+East Lansing
+Milk,30,$2.00
+Eggs,2,$0.50
+Candy,6,$1.00
+Soda,5,$1.56
+Bargain Phone,3,$185.00
+
+Sparty's
+East Lansing
+Candy,10,$0.85
+Soda,4,$1.50
+Sandwich,3,$2.99
+
+1 items on my shopping list:
+4 Apples
+
+-------------------------------
+Input 6: Best price test
+
+4 Stores:
+Local Grocery
+East Lansing
+Apples,10,$4.76
+Sandwich,2,$1.99
+Olive Bread,3,$2.99
+Milk,7,$1.25
+Eggs,40,$0.78
+Candy,4,$0.51
+
+Electronics R Here
+Ann Arbor
+Bargain Phone,2,$200.00
+S Phone,4,$650.00
+Fruit Phone,2,$700.00
+
+Corner Store
+East Lansing
+Milk,30,$2.00
+Eggs,2,$0.50
+Candy,6,$1.00
+Soda,5,$1.56
+Bargain Phone,3,$185.00
+
+Sparty's
+East Lansing
+Candy,10,$0.85
+Soda,4,$1.50
+Sandwich,3,$2.99
+
+1 items on my shopping list:
+2 Eggs
+
+-------------------------------------------
+Input 7: Ordering from multiple stores test
+
+4 Stores:
+Local Grocery
+East Lansing
+Apples,10,$4.76
+Sandwich,2,$1.99
+Olive Bread,3,$2.99
+Milk,7,$1.25
+Eggs,40,$0.78
+Candy,4,$0.51
+
+Electronics R Here
+Ann Arbor
+Bargain Phone,2,$200.00
+S Phone,4,$650.00
+Fruit Phone,2,$700.00
+
+Corner Store
+East Lansing
+Milk,30,$2.00
+Eggs,2,$0.50
+Candy,6,$1.00
+Soda,5,$1.56
+Bargain Phone,3,$185.00
+
+Sparty's
+East Lansing
+Candy,10,$0.85
+Soda,4,$1.50
+Sandwich,3,$2.99
+
+1 items on my shopping list:
+10 Eggs
+
+-------------------------------------------
+Input 8: Multi items to purchase
+
+4 Stores:
+Local Grocery
+East Lansing
+Apples,10,$4.76
+Sandwich,2,$1.99
+Olive Bread,3,$2.99
+Milk,7,$1.25
+Eggs,40,$0.78
+Candy,4,$0.51
+
+Electronics R Here
+Ann Arbor
+Bargain Phone,2,$200.00
+S Phone,4,$650.00
+Fruit Phone,2,$700.00
+
+Corner Store
+East Lansing
+Milk,30,$2.00
+Eggs,2,$0.50
+Candy,6,$1.00
+Soda,5,$1.56
+Bargain Phone,3,$185.00
+
+Sparty's
+East Lansing
+Candy,10,$0.85
+Soda,4,$1.50
+Sandwich,3,$2.99
+
+3 items on my shopping list:
+15 Candy
+100 Soda
+1 S Phone
+
+-------------------------------------------
+Input 9: Just a complex test
+
+6 Stores:
+Local Grocery
+East Lansing
+Apples,10,$4.76
+Sandwich,2,$1.99
+Olive Bread,3,$2.99
+Milk,7,$1.25
+Eggs,40,$0.78
+Candy,4,$0.51
+
+Fast Food Dispenser
+Lansing
+Soda,3,$1.01
+Burger,2,$2.00
+Fries,100,$0.50
+
+Electronics R Here
+Ann Arbor
+Bargain Phone,2,$200.00
+S Phone,4,$650.00
+Fruit Phone,2,$700.00
+TV,10,$4000.00
+
+Corner Store
+East Lansing
+Milk,30,$2.00
+Eggs,2,$0.50
+Candy,6,$1.00
+Soda,5,$1.56
+Bargain Phone,3,$185.00
+
+Sparty's
+East Lansing
+Candy,10,$0.85
+Soda,4,$1.50
+Sandwich,3,$2.99
+
+Stolen Goods
+Neighbor's House
+Candy,3,$0.00
+TV,4,$4.00
+
+5 items on my shopping list:
+105 Candy
+5 Soda
+1 S Phone
+10 TV
+1 Burger
+
